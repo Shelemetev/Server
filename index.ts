@@ -1,8 +1,8 @@
 import express from 'express'
 
-const app = express()
+const app : any = express()
 
-app.get('/', (req, res) => {
+app.get('/', (req: any, res: any): any => {
     res.send('Hello World')
 })
 
