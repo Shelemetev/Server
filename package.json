@@ -3,10 +3,10 @@
     "yarn": "^1.22.22"
   },
   "scripts": {
-    "watch" : "nodemon ./dist/index.js",
-    "dev" : "tsc -w",
-    "build" : "tsc",
-    "start" : "node dist/index.js"
+    "watch": "nodemon --inspect dist/index.js",
+    "dev": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
